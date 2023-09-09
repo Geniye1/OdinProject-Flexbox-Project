@@ -20,7 +20,6 @@ div {
     background-color: #1F2937;
 
     padding: 20px 20px 20px 20px;
-    gap: 70px;
 }
 
 .header-information-container {
@@ -51,8 +50,8 @@ div {
 }
 
 #header-logo {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 #buy-button {
@@ -92,6 +91,8 @@ div {
     flex-direction: column;
     align-items: center;
     gap: 30px;
+
+    margin: 30px 0 30px 0;
 }
 
 .information-items {
@@ -131,4 +132,65 @@ div {
 .information-item-image {
     width: 150px;
     height: 150px;
+}
+
+/* QUOTE */
+.quote-container {
+    height: 400px;
+    background-color: #E5E7EB;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#quote-text {
+    padding: 0 400px 0 400px;
+    margin: 0 0 0 0;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-container #quote-credit {
+    text-align: right;  
+    margin-right: 400px;
+    font-size: 25px;
+    color: #1F2937;
+    font-weight: 800;
+}
+
+/* CALL TO ACTION */
+.cta-container {
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container-container {
+    width: 80%;
+    height: 50%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-text-container {
+    flex-direction: column;
+}
+
+#cta-header {
+    
+}
+
+#report-button {
+    font-size: 20px;
+    color: white;
+    background-color: #3882F6;
+    width: 150px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 5px;
 }
