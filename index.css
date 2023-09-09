@@ -1,15 +1,20 @@
 body {
     margin: 0 0 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 div {
     display: flex;
 }
 
+.main-container {
+    flex-direction: column;
+}
+
 .header-container {
     flex-direction: column;
     width: 100%;
-    height: 400px;
+    height: 500px;
     background-color: #1F2937;
 
     padding: 20px 20px 20px 20px;
@@ -17,6 +22,7 @@ div {
     align-items: center;
 }
 
+/* HEADER */
 .header-navbar {
     gap: 50px;
 }
@@ -46,7 +52,7 @@ div {
 
 #header-text {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: bolder;
     color: #F9FAF8;
     margin: 0 0 3px 0;
 }
@@ -62,4 +68,50 @@ div {
     flex: 0;
     width: 300px;
     height: 300px;
+}
+
+/* INFORMATION */
+.information-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.information-items {
+    justify-content: center;
+    gap: 50px;
+}
+
+#information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.information-image-container {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-item {
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+}
+
+.information-subtext {
+    font-size: 22px;
+    color: #636669;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.information-item-image {
+    width: 150px;
+    height: 150px;
 }
