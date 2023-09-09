@@ -31,8 +31,23 @@ div {
 }
 
 .header-navbar {
-    gap: 50px;
+    gap: 20px;
     justify-content: flex-start;
+}
+
+.navbar-link {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    height: 35px;
+}
+
+.navbar-link:hover {
+    color: rgb(183, 183, 183);
+}
+
+.navbar-link:active {
+    color: rgb(100, 100, 100);
 }
 
 .header-text-container {
@@ -46,7 +61,7 @@ div {
 
 .header-logo-container {
     margin-left: 3%;
-    width: 75%;
+    width: 60%;
 }
 
 #header-logo {
@@ -64,6 +79,14 @@ div {
     border-radius: 5px;
     outline: none;
     border-style: none;
+}
+
+#buy-button:hover {
+    background-color: #275cb2;
+}
+
+#buy-button:active {
+    transform: translateY(4px);
 }
 
 #header-text {
@@ -175,6 +198,7 @@ div {
     border-radius: 10px;
     justify-content: center;
     align-items: center;
+    gap: 250px;
 }
 
 .cta-text-container {
@@ -182,7 +206,15 @@ div {
 }
 
 #cta-header {
-    
+    color: white;
+    margin: 0 0 0 0;
+}
+
+#cta-subtext {
+    color: rgb(214, 214, 214);
+    font-size: 20px;
+    margin: 0 0 0 0;
+    width: 600px;
 }
 
 #report-button {
@@ -193,4 +225,25 @@ div {
     height: 50px;
     border: 3px solid white;
     border-radius: 5px;
+}
+
+#report-button:hover {
+    background-color: #275cb2;
+}
+
+#report-button:active {
+    transform: translateY(4px);
+}
+
+/* FOOTER */
+.footer-container {
+    height: 120px;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-text {
+    color: white;
+    font-size: 20px;
 }
